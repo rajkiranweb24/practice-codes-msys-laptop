@@ -1,3 +1,18 @@
+.dark-mode{
+  height: 100%;
+  width: 100%;
+ background-color: black;
+  color: white;
+
+}
+.light-mode{
+  height: 100%;
+  color: black;
+  width: 100%;
+  background-color: white;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +25,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.header-body{
+  height: 100px;
+  width: 100%;
+  background-color: brown;
+}
+.list-container{
+  display: flex;
+  justify-content: center;
+
 }

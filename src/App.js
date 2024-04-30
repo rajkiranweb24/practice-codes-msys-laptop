@@ -1,23 +1,80 @@
 import logo from './logo.svg';
 import './App.css';
+import {Routes,Route} from 'react-router-dom'
+import UseState from './UseState';
+import PostsComponent from './UseEffect';
+import Header from './Header';
+import Example from './Example';
+import SingleComponent from './SingleComponent';
+import DarkMode from './DarkMode';
+import StateClassComp from './StateClassComp';
+import Parent from './Parent';
+import ConditionalRender from './ConditionalRender';
+import HandleEvents from './HandleEvents';
+import HandleForm from './HandleForm';
+import Styling from './Styling';
+import CrudApi from './CrudApi';
+import ContextExample from './ContextExample';
+import PromiseExample from './PromiseExample';
+import { BrowserRouter } from 'react-router-dom';
+import RouterHome from './RouterHome';
+import RouterAbout from './RouterAbout';
+import RouterHeader from './RouterHeader';
+
+import TodosList from './TodosList';
+import DataFetching from './DataFetching';
+import CoroselApp from './CoroselApp';
+import Counter from './Counter';
+import SpreadRest from './SpreadRest';
+import FormComponent from './FormComponent';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+     
+       
+          
+
+      <FormComponent       />
+     
+
+
+      {/* <SpreadRest/> */}
+      {/* <Counter/> */}
+      {/* <CoroselApp/> */}
+      {/* <DataFetching/> */}
+      {/* <TodosList/> */}
+      
+      
+      {/* <BrowserRouter>
+      <RouterHeader/>
+      <Routes>
+        <Route path="/" element={<RouterHome/>} />
+        <Route path="/about" element={<RouterAbout/>} />
+        <Route path="*" element={ <div>404 not found</div> } />
+   
+      </Routes>
+     </ BrowserRouter> */}
+      {/* <PromiseExample/> */}
+      {/* <ContextExample/> */}
+      {/* <CrudApi/> */}
+      {/* <Styling/> */}
+    {/* <HandleForm/> */}
+      {/* <HandleEvents/> */}
+      {/* <ConditionalRender/> */}
+      {/* <Parent/> */}
+      {/* <StateClassComp/> */}
+     {/* <DarkMode/> */}
+      {/* <Header/>
+      <Example/>
+      <Routes>
+        <Route exact path='/' element={<PostsComponent/>}/>
+        <Route exact path='/post/:id' element={<SingleComponent/>}/>
+      </Routes> */}
+    
     </div>
   );
 }
